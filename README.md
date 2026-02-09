@@ -37,14 +37,14 @@ Clone the repository:
 git clone https://github.com/JavierZavaleta94/ai-lead-routing.git
 
 
-1. Configure HubSpot form embed on your HTML page.
+1. Configure HubSpot form embed on your HTML page. https://javierzavaleta94.github.io/AI-Enhanced-Lead-Routing-Scoring-Automation/
 2. Set up Make.com scenario with modules for:
 3. HubSpot form capture
 
 - AI prompt (Make AI toolkit)
 - CRM updates
 - Outlook email notifications
-- Google Sheets logging
+- Google Sheets logging https://docs.google.com/spreadsheets/d/14dLw_6fhCe7Xw9jM_ucHWLITzXCvCYpVdReaWtCttKM/edit?usp=sharing
 - Slack notifications for HOT leads
 
 4. Adjust AI prompts to match lead scoring criteria.
