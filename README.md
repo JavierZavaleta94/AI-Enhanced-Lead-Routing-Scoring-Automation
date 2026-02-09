@@ -1,57 +1,48 @@
-## AI-Enhanced Lead Routing & Scoring Automation
+# AI-Enhanced Lead Routing & Scoring Automation
 
-Make.com, HubSpot CRM, AI Prompting, Google Sheets, Slack, Outlook
-GitHub: https://github.com/JavierZavaleta94
+**Make.com, HubSpot CRM, AI Prompting, Google Sheets, Slack, Outlook**
 
-## Overview
+---
 
-This project demonstrates an AI-powered go-to-market workflow that automates lead scoring, prioritization, and routing across multiple platforms. It captures inbound leads, enriches the data using AI, and ensures rapid actionable follow-up to improve revenue pipeline efficiency.
+## Project Summary
 
-## Key Features
+This project automates the go-to-market lead routing process using AI.  
+Inbound HubSpot form submissions are analyzed via an AI prompt to generate lead scores, qualification status, next actions, AI confidence, and insight summaries.  
+Qualified leads are updated in HubSpot, logged in Google Sheets, trigger email notifications, and high-priority leads notify the owner via Slack for faster follow-up.
 
-- AI-Driven Lead Scoring: Generates lead_score, qualification (Hot/Warm/Cold), next_action, AI confidence, and insight_summary based on HubSpot form submissions.
-- CRM Integration: Updates HubSpot contact records with AI-enriched information.
-- Notifications & Routing: Sends Outlook emails and Slack DMs for HOT leads.
-- Tracking & Reporting: Logs all lead events and AI outputs in Google Sheets.
-- End-to-End Automation: Integrates AI into multi-platform workflows to improve lead triage and pipeline visibility.
+---
 
-## How It Works
+## Workflow & Features
 
-1. User submits a HubSpot form embedded on a static HTML page.
-2. Lead data is analyzed by AI using a structured prompt.
-3. AI output updates the HubSpot contact.
-4. Outlook email notification is sent for every new lead.
-5. Lead data is logged in Google Sheets for reporting.
-6. HOT leads trigger Slack direct messages to the lead owner.
+- AI-powered lead scoring and qualification using Make.com and AI prompt integration  
+- Real-time CRM updates in HubSpot  
+- Conditional routing: high-priority leads trigger Slack alerts, others receive email notifications  
+- Logging of all lead events and AI outputs into Google Sheets for volume, priority distribution, and reporting  
+- End-to-end automation from form submission to GTM pipeline triage
 
-## Use Cases
+---
 
-- Sales & Marketing Teams: Quickly identify high-value leads and prioritize follow-up.
-- Revenue Ops / GTM Automation: Reduce manual triage and accelerate lead-to-action speed.
-- AI Workflow Demo: Showcases practical integration of AI with low-code automation platforms.
+## Technologies Used
 
-## Getting Started
+- Make.com & Make AI Toolkit  
+- HubSpot CRM & Embedded Forms  
+- Google Sheets for tracking & reporting  
+- Slack & Outlook for notifications  
+- HTML/JavaScript for form embed
 
-Clone the repository:
+---
 
-git clone https://github.com/JavierZavaleta94/ai-lead-routing.git
+## Screenshots / Demo
 
+![Form](screenshots/Form.png)  
+![MakeWorkflow](screenshots/MakeWorkflow.png)  
 
-1. Configure HubSpot form embed on your HTML page. https://javierzavaleta94.github.io/AI-Enhanced-Lead-Routing-Scoring-Automation/
-2. Set up Make.com scenario with modules for:
-3. HubSpot form capture
+*Video demo will be added here soon*
 
-- AI prompt (Make AI toolkit)
-- CRM updates
-- Outlook email notifications
-- Google Sheets logging https://docs.google.com/spreadsheets/d/14dLw_6fhCe7Xw9jM_ucHWLITzXCvCYpVdReaWtCttKM/edit?usp=sharing
-- Slack notifications for HOT leads
+---
 
-4. Adjust AI prompts to match lead scoring criteria.
-5. Test workflow with sample leads.
+## Links
 
-## Project Highlights
-
-- Demonstrates AI + GTM automation in a real-world workflow.
-- Integrates multi-platform automation across CRM, email, collaboration, and reporting tools.
-- Provides observable metrics for lead prioritization and response tracking.
+- [Live Demo of HubSpot Form](https://javierzavaleta94.github.io/AI-Enhanced-Lead-Routing-Scoring-Automation/)  
+- [Google Sheets Tracking Example](https://docs.google.com/spreadsheets/d/14dLw_6fhCe7Xw9jM_ucHWLITzXCvCYpVdReaWtCttKM/edit?usp=sharing)  
+- [GitHub Repository](https://github.com/JavierZavaleta94)
